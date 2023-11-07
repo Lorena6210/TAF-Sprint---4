@@ -6,7 +6,7 @@ const testTAF = require("./script.js");
 
 // const { testTAF } = pkg;
 
-test(`1 It shoud passed candidade [INPUT]:{
+test(` It shoud passed candidade [INPUT]:{
         distance: 25000;
         time: 715;
         gender: "male";
@@ -18,7 +18,7 @@ test(`1 It shoud passed candidade [INPUT]:{
   assert.strictEqual(response, true);
 });
 
-test(`2 It shoud passed candidade [INPUT]:{
+test(` It shoud passed candidade [INPUT]:{
     distance: 24000;
     time: 800;
     gender: "female";
@@ -30,7 +30,7 @@ test(`2 It shoud passed candidade [INPUT]:{
   assert.strictEqual(response, true);
 });
 
-test(`3 It shouldn't passed candidade [INPUT]:{
+test(` It shouldn't passed candidade [INPUT]:{
   distance: 24000;
   time: 900;
   gender: "female";
@@ -42,7 +42,7 @@ test(`3 It shouldn't passed candidade [INPUT]:{
   assert.strictEqual(response, false);
 });
 
-test(`4 It shouldn't passed candidade [INPUT]:{
+test(` It shouldn't passed candidade [INPUT]:{
   distance: 24000;
   time: 900;
   gender: "male";
@@ -54,7 +54,7 @@ test(`4 It shouldn't passed candidade [INPUT]:{
   assert.strictEqual(response, false);
 });
 
-test(`5 It shouldn't passed candidade [INPUT]:{
+test(` It shouldn't passed candidade [INPUT]:{
   distance: 24000;
   time: 700;
   gender: "male";
@@ -66,7 +66,7 @@ test(`5 It shouldn't passed candidade [INPUT]:{
   assert.strictEqual(response, false);
 });
 
-test(`6 It should passed candidade [INPUT]:{
+test(` It should passed candidade [INPUT]:{
   distance: 24000;
   time: 700;
   gender: "male";
@@ -78,7 +78,7 @@ test(`6 It should passed candidade [INPUT]:{
   assert.strictEqual(response, true);
 });
 
-test(`7 It should passed candidade [INPUT]:{
+test(` It should passed candidade [INPUT]:{
   distance: 24000;
   time: 810;
   gender: "female";
@@ -90,7 +90,7 @@ test(`7 It should passed candidade [INPUT]:{
   assert.strictEqual(response, true);
 });
 
-test(`8 It shouldn't passed candidade [INPUT]:{
+test(` It shouldn't passed candidade [INPUT]:{
   distance: 24000;
   time: 810;
   gender: "male";
@@ -102,7 +102,7 @@ test(`8 It shouldn't passed candidade [INPUT]:{
   assert.strictEqual(response, false);
 });
 
-test(`9 It shouldn't passed candidade [INPUT]:{
+test(` It shouldn't passed candidade [INPUT]:{
   distance: 24000;
   time: 810;
   gender: "female";
@@ -114,7 +114,7 @@ test(`9 It shouldn't passed candidade [INPUT]:{
   assert.strictEqual(response, false);
 });
 
-test(`10  It shouldn't passed candidade [INPUT]:{
+test(`  It shouldn't passed candidade [INPUT]:{
   distance: 20000;
   time: 810;
   gender: "female";
